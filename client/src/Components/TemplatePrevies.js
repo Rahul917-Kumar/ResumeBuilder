@@ -63,10 +63,11 @@ function TemplatePrevies() {
          const docSnap = await getDoc(docref);
          const newData = [docSnap.data()];
          setAllData([...newData]);
+         setLoading(false);
        };
        
        getResumeDetailfromFirestore();
-       setLoading(false);
+       
        setCheck(true)
     },[setCheck]);
 
