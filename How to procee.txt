@@ -1,0 +1,8 @@
+Day2 ->create register fill up page and also connect to the database
+Day3 ->connect to the server and create first template 
+
+
+Date 11-June-2022
+
+* create template pages which include preview button which will display in whole screen and and we will have a button which will help us to request to backend and we will also pass the
+  data gatherd from firestore satabse to backend and also pass a flag variable which will tell which template was choosen
